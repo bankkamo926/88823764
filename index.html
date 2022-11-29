@@ -1,14 +1,74 @@
 <html>
     <head>
-        <link rel="stylsheet" href="text.css">
+        <meta charset="UTF-8">
+         <title>Bank</title>
     </head>
     <body>
-        <div class="container">
-            <div class="Profrie">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .con{
+                position: relative;
+                min-height: 100vh;
+                background-image:url("BG.jpg");
+                z-index: -1;
+                background-size: cover;
+                filter: brightness(70%);
+            }
+
+            .Pro{
+                color: #fff;
+                position: absolute;
+                left: 40%;
+            }
+            .img img{
+                margin: auto;
+                width: 200;
+                height: 200;
+                border: solid #fff;
+                border-radius: 50%;
                 
+            }
+            .img{
+                position: absolute;
+                top: 10%;
+                left: 40%;
+            }
+            .text{
+                border: #000;
+                color: #fff;
+            }
+            .text{
+                position: absolute;
+                top: 35%;
+                left: 25%;
+            }
+        </style>
+        
+        <div class="con">
+            <div class="Pro">
+                <h1>ประวัติส่วนตัว</h1>
             </div>
+            <div class="img">
+                <img src="Bank.jpg">
+            </div>
+            <div class="text">
+                <h1>64160075</h1>
+                <h1>ชื่อเล่น:   แบงค์</p>
+                <p>งานอดิเรก:เล่นเกม</p>
+                <p>คติประจำใจ:เทอมหน้าค่อยเอาใหม่ถ้าเทอมนี้เกรดไม่ดี  </p>
+                <p>ของกินทที่ชอบ: กระเพราหมูกรอบไข่ดาวไม่สุก </p>
+                <p>เรื่องความรัก:เศร้าทุกวันเดี้ยวมันก็ดีเอง </p>
+                <p>อายุ: 20 ปี </p>
+
+            </div>
+            
 
         </div>
+        
         
     </body>
 </html>
